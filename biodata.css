@@ -1,0 +1,134 @@
+/* Reset Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #020c1b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #64ffda;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #00c9ff;
+}
+i {
+    color: white;
+}
+
+/* General styles for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Parallax section styling */
+.parallax {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    background-image: url('parallax.jpg'); /* Replace with your image path */
+    background-attachment: fixed; /* This enables the parallax effect */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Cover the entire section */
+}
+
+/* Content inside the parallax section */
+.content {
+    position: relative;
+    z-index: 1; /* Ensure it stays above the background */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%; /* Fill the section height */
+    color: white;
+    text-align: center;
+}
+
+/* Individual boxes inside the parallax section */
+.box {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content inside the box */
+    align-items: center; /* Horizontally center the content inside the box */
+}
+
+/* Headings for each box */
+.box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Paragraph inside each box */
+.box pre {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+    white-space: pre-wrap; /* Ensure the text wraps properly */
+}
+
+/* Additional sections for content below */
+.regular-section {
+    padding: 100px 20px;
+    background-color: royalblue;
+    text-align: center;
+}
+
+.regular-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.regular-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.footer-content p{
+    color: white;
+}
+.social-icons-footer a{
+    color: white;
+}
